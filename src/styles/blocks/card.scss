@@ -90,6 +90,9 @@
     text-align: center;
     text-decoration: none;
 
+    transition: all 0.3s linear;
+
+
     &:hover {
       border: 1px solid $button-color;
 

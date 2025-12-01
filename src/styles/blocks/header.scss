@@ -43,10 +43,12 @@
 
   text-decoration: none;
   color: $nav-link-color;
-}
 
-.nav__link:hover {
-  color: $blue-text-color;
+  transition: all 0.3s linear;
+
+  &:hover {
+    color: $blue-text-color;
+  }
 }
 
 .nav__link.is-active {
