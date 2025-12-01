@@ -6,7 +6,7 @@
   width: 200px;
   margin: auto;
   padding-inline: 16px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border-color;
   border-radius: 5px;
 
   display: flex;
@@ -91,7 +91,6 @@
     text-decoration: none;
 
     transition: all 0.3s linear;
-
 
     &:hover {
       border: 1px solid $button-color;

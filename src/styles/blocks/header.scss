@@ -17,16 +17,17 @@
 
 .logo-link {
   display: block;
-  height: 40px;
-  width: 40px;
+  height: $logo-size;
+  width: $logo-size;
 }
 
 .logo-link__img {
-  width: 40px;
+  width: $logo-size;
 }
 
 .nav__list {
   list-style: none;
+  padding: 0;
   margin: 0;
 
   display: flex;
